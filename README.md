@@ -6,4 +6,4 @@ I will try to keep toc here
 
 ## Table of Contents
 
-- [Day 1] ./src/day_1
+- [Day 1](./src/task1.rs)
