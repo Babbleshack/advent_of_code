@@ -1,3 +1,4 @@
+// Task 1.b
 pub fn sum_windows(readings: &[usize], window_size: usize) -> i32 {
     let mut window = readings.windows(window_size);
     let mut previous_window = window.next().unwrap();
@@ -13,6 +14,7 @@ pub fn sum_windows(readings: &[usize], window_size: usize) -> i32 {
     increased
 }
 
+// Task 1.a
 pub fn count_total_depth(readings: &[usize], window_size: usize) -> i32 {
     let mut window = readings.windows(window_size);
     let mut increases = 0;
